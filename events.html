@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="./styles/events.css">
+    <script src="./js/events.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__page-title">Events!</h1>
+    </header>
+
+    <div class="search-field">
+        <label for="search">Search for an animal</label>
+        <input id="search" name="search" placeholder="Start typing an animal name">
+
+    </div>
+   
+    <section class="animals-tabs">
+        <div class="tab pangolin" id="pangolin">Pangolin</div>
+        <div class="tab panther">Panther</div>
+        <div class="tab parrot">Parrot</div>
+        <div class="tab peacock">Peacock</div>
+        <div class="tab penguin">Penguin</div>
+        <div class="tab pelican">Pelican</div>
+        <div class="tab porcupine">Porcupine</div>
+    </section>
+
+    <h3></h3>
+    <section class="main-content">
+        <div class="content pangolin">
+            <h2>Pangolin</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum corporis doloremque, vero placeat
+                adipisci odio necessitatibus tempore illum praesentium voluptatum! Fugit repudiandae delectus debitis
+                unde, dolore sequi. Modi, ex debitis.</p>
+        </div>
+        <div class="content panther">
+            <h2>Panther</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum corporis doloremque, vero placeat
+                adipisci odio necessitatibus tempore illum praesentium voluptatum! Fugit repudiandae delectus debitis
+                unde, dolore sequi. Modi, ex debitis.</p>
+        </div>
+        <div class="content parrot">
+            <h2>Parrot</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum corporis doloremque, vero placeat
+                adipisci odio necessitatibus tempore illum praesentium voluptatum! Fugit repudiandae delectus debitis
+                unde, dolore sequi. Modi, ex debitis.</p>
+        </div>
+        <div class="content peacock">
+            <h2>Peacock</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum corporis doloremque, vero placeat
+                adipisci odio necessitatibus tempore illum praesentium voluptatum! Fugit repudiandae delectus debitis
+                unde, dolore sequi. Modi, ex debitis.</p>
+        </div>
+        <div class="content penguin">
+            <h2>Penguin</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum corporis doloremque, vero placeat
+                adipisci odio necessitatibus tempore illum praesentium voluptatum! Fugit repudiandae delectus debitis
+                unde, dolore sequi. Modi, ex debitis.</p>
+        </div>
+        <div class="content pelican">
+            <h2>Pangolin</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum corporis doloremque, vero placeat
+                adipisci odio necessitatibus tempore illum praesentium voluptatum! Fugit repudiandae delectus debitis
+                unde, dolore sequi. Modi, ex debitis.</p>
+        </div>
+        <div class="content porcupine">
+            <h2>Porcupine</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum corporis doloremque, vero placeat
+                adipisci odio necessitatibus tempore illum praesentium voluptatum! Fugit repudiandae delectus debitis
+                unde, dolore sequi. Modi, ex debitis.</p>
+        </div>
+    </section>
+    <!--
+
+        what are events: are things that happen in the document object are anything happened in the documents object
+        are happening all the time. Are done automatically, we listen when this event happened do the instructions
+        onclick event is an attribut of an element, either an event an onclick function, nowadays we separate js from html
+        so we use getElementbyid or quesry selector.
+        example 
+        document.queryselector("h1").onclick = () => {....}
+        window.onclick = e =>console.log(e.target)
+        example:
+        const functionll = e => console.log(e.target);
+        document.quesryselector(h1).onclick = functionll
+
+        ********Method chainig*******
+        methods and functions can be linked together if the return type is suitable
+        let example = document.querySelector(".example")
+
+        onclcik is an attribute 
+        ddeventlistner is a method of an html element class.
+        addeventlister take 2 argement what it should do and a function click and function.
+        it takes the event and the event handler which is a function,
+        The click event is a DOM event triggered when a mouse click occurs on an element, while onclick is an HTML attribute that specifies JavaScript code to execute when the element is clicked
+    <nav>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+    </main>
+
+    there is 2 events  (change input)
+-->
+    <main>
+
+        <footer>
+            copyright
+            <p> 2024
+                <span>Souad</span>
+            </p>
+        </footer>
+
+</body>
+
+</html>

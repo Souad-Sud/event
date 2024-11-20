@@ -1,0 +1,13 @@
+:root {
+    --color-tab: #A594F9;
+    --color-main : #CDC1FF;
+    --color-header: #F5EFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}

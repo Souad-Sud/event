@@ -1,0 +1,72 @@
+:root {
+    --color-main:#CDC1FF;
+    --color-secondary: #F5EFFF;
+    --color-teritary:#A594F9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: var(--color-header);
+    padding: 24px;    
+}
+
+.header__page-title {    
+    color : var(--color-main);
+    font-size: 4rem;
+    margin:0;
+    text-align: center;
+}
+
+
+.animals-tabs {
+    background-color: var(--color-main);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  8px 24px;
+   
+}
+ 
+.tab {
+     border-radius: 10px;
+    color: black;
+    font-size: 1.5rem;
+    padding: var(--spacing-small) var(--spacing-base);
+    font-weight: 700;
+}
+ 
+.active {
+    background-color: var(--color-secondary);
+    color: var(--color-main);
+ 
+}
+.content {
+    display: none;
+    margin : var(--spacing-base);
+    border-radius: 10px;
+    background-color: var(--color-main);
+    color: var(--color-secondary);
+    padding: var(--spacing-small);
+}
+ 
+.featured {
+    display: block;
+}
+
+
+/*Search*/
+.search-field{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   justify-content: center;
+   margin: 20px;
+
+}

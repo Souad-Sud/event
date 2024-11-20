@@ -1,0 +1,44 @@
+:root {
+    --color-tab: #A594F9;
+    --color-main : #CDC1FF;
+    --color-header: #F5EFFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: var(--color-header);
+    padding: 24px;    
+}
+
+.header-title {
+    text-align: center;
+}
+
+.article-menu {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--color-tab);
+    color: white;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 100px;     
+}
+
+.display {
+   background-color: rgb(20, 118, 246);
+}
+
+.replaced {
+    background-color: rgb(189, 81, 239);
+}
